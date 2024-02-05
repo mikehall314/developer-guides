@@ -3,11 +3,13 @@
   "version": "1.0.0-rc.0",
   "description": "Developer documentation",
   "scripts": {
-    "format": "prettier --write '*.md' '**/*.md'"
+    "format": "prettier --write '*.md' '**/*.md'",
+    "prepare": "husky"
   },
   "author": "Mike Hall",
   "license": "CC-BY-3.0",
   "devDependencies": {
+    "husky": "^9.0.10",
     "prettier": "^3.2.5"
   },
   "volta": {
